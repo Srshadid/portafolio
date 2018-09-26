@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Apercu';
-  src: url("../../fonts/Apercu-Mono.ttf");
+  font-family: 'ProspectusStd';
+  src: url("../../fonts/ProspectusStdReg.otf");
   font-weight: 500;
   font-style: normal; }
 @font-face {
-  font-family: 'Apercu';
-  src: url("../../fonts/Apercu-Mono-Bold.ttf");
+  font-family: 'ProspectusStd';
+  src: url("../../fonts/ProspectusStdBlk.otf");
   font-weight: 900;
   font-style: normal; }
 body {
@@ -45,7 +45,7 @@ body {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Apercu";
+  --font-family-sans-serif: "ProspectusStd";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -68,7 +68,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Apercu";
+  font-family: "ProspectusStd";
   font-size: 1.06rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3777,7 +3777,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Apercu";
+  font-family: "ProspectusStd";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -3862,7 +3862,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Apercu";
+  font-family: "ProspectusStd";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6380,10 +6380,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #C2FF1A !important; }
+  color: #0057FF !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #a9e600 !important; }
+  color: #00153F !important; }
 
 .text-secondary {
   color: #2741FF !important; }
@@ -6539,8 +6539,6 @@ h6 {
   font-size: 1.1rem; }
 
 .hero {
-  background: url("images/hero-bg.png") no-repeat top center;
-  background-size: cover;
   padding-bottom: 7rem;
   position: relative;
   z-index: 1; }
