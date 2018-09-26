@@ -6380,10 +6380,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #C2FF1A !important; }
+  color: #0057FF !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #a9e600 !important; }
+  color: #00153F !important; }
 
 .text-secondary {
   color: #2741FF !important; }
@@ -6539,8 +6539,6 @@ h6 {
   font-size: 1.1rem; }
 
 .hero {
-  background: url("images/hero-bg.png") no-repeat top center;
-  background-size: cover;
   padding-bottom: 7rem;
   position: relative;
   z-index: 1; }
