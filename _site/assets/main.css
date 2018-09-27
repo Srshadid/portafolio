@@ -3040,6 +3040,7 @@ tbody.collapse.show {
 
 .card-title {
   margin-bottom: 0.75rem;
+  letter-spacing: normal;
   color: #0057FF; }
 
 .card-subtitle {
@@ -4204,7 +4205,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #0D1118 !important; }
+  background-color: #00153F !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -6548,12 +6549,13 @@ h1, h2, h3, h4, h5, h6, label {
   margin-top: -7rem;
   position: relative;
   z-index: 2; }
-
+#portafolio .card p {
+ color: #00153F;
+}
 #portafolio .card {
   border: 0;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 0;
-  border-bottom: 8px solid; }
+  border-radius: 0;}
 #portafolio .row {
   position: relative; }
   #portafolio .row .sect-img {
