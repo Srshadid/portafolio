@@ -6513,12 +6513,10 @@ h1, h2, h3, h4, h5, h6, label {
   font-weight: 900;
   letter-spacing: -.1rem; }
 
-.fa-ul {
-  margin-left: 2.3rem; }
-  .fa-ul .fa-li {
-    margin-top: 7px; }
-  .fa-ul a {
-    padding-left: 1rem; }
+.fa-ul .fa-li {
+  margin-top: 7px; }
+.fa-ul a {
+  padding-left: 1rem; }
 
 .nav-link {
   padding: 0.5rem 2rem !important;
@@ -6576,36 +6574,43 @@ h6 {
   border: 0;
   border-bottom: 1px solid #0057FF;
   border-radius: 0;
-  color: white !important;
-  padding: 1rem;
-  font-weight: 500;
+  color: gray !important;
+  padding: .5rem;
+  font-weight: 900;
   font-size: 1rem; }
   .form-control:focus {
     border-color: #FFAF00; }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .contact-info {
-    margin-top: 2rem; }
-
-  #portafolio .sect-img {
-    margin-top: 0 !important;
-    position: relative !important;
-    max-width: none !important;
-    flex: 1 !important; }
-
-  #portafolio .row:not(.justify-content-end) .col-sm-6:first-child {
-    order: 2; }
-  #portafolio .row:not(.justify-content-end) .col-sm-6:last-child {
-    order: 1; }
-  #portafolio .row:not(.justify-content-end) .card {
-    padding: 2rem; }
+    margin-top: 1rem; }
 
   .customer-b, .containment-b {
-    display: none !important; } }
+    display: none !important; }
+
+  #portafolio .row {
+    display: block; }
+    #portafolio .row .col {
+      padding-bottom: 1rem; }
+
+  #contact {
+    padding: 2 0rem; }
+    #contact .card {
+      border-radius: 0; } }
 @media (min-width: 576px) and (max-width: 991.98px) {
   .container {
     width: 95%;
     max-width: none; }
 
   #portafolio .card {
-    padding: 2rem; } }
+    padding: 2rem; }
+
+  #portafolio .row {
+    display: block; }
+    #portafolio .row .col {
+      padding-bottom: 1rem; }
+
+  #contact {
+    padding: 2 0rem; }
+    #contact .card {
+      border-radius: 0; } }

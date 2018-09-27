@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5, h6, label {
 }
 
 .fa-ul {
-  margin-left: 2.3rem;
   .fa-li {
     margin-top: 7px;
   }
@@ -85,9 +84,9 @@ h6 {
   border: 0;
   border-bottom: 1px solid $primary-color;
   border-radius: 0;
-  color: white!important;
-  padding: 1rem;
-  font-weight: 500;
+  color: gray!important;
+  padding: .5rem;
+  font-weight: 900;
   font-size: 1rem;
   &:focus {
     border-color: $warning-color;
@@ -96,32 +95,27 @@ h6 {
 
 // Mobile
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(xs) {
   .contact-info {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
-  #portafolio .sect-img {
-    margin-top: 0!important;
-    position: relative!important;
-    max-width: none!important;
-    flex: 1!important;
-  }
-  #portafolio .row:not(.justify-content-end) {
-    .col-sm-6:first-child {
-      order: 2;
-    }
-    .col-sm-6:last-child {
-      order: 1;
-    }
-    .card {
-      padding: 2rem;
-    }
-  }
+
   .customer-b, .containment-b {
     display: none!important;
   }
+  #portafolio .row {
+    display: block;
+    .col {
+      padding-bottom: 1rem;
+    }
+  }
+  #contact {
+    padding: 2 0rem;
+    .card {
+      border-radius: 0;
+    }
+  }
 }
-
 // Tablets
 @include media-breakpoint-between(sm, md) {
 
@@ -131,6 +125,18 @@ h6 {
   }
   #portafolio .card {
     padding: 2rem;
+  }
+  #portafolio .row {
+    display: block;
+    .col {
+      padding-bottom: 1rem;
+    }
+  }
+  #contact {
+    padding: 2 0rem;
+    .card {
+      border-radius: 0;
+    }
   }
 
 }
