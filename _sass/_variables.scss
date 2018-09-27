@@ -1,27 +1,27 @@
 $font-size-base: 1.06rem;
 $black: #0D1118;
 $dark: $black !default;
-$body-color: #0D1118;
+$body-color: #00153F;
 
-$font-family-sans-serif: 'Apercu';
+$font-family-sans-serif: 'Prospectus';
 $font-family-base:       $font-family-sans-serif;
 
 $font-size-sm: .85rem;
 $font-size-xs: .7rem;
 
-$primary-color: #C2FF1A;
-$warning-color: #FF8E1D;
+$primary-color: #0057FF;
+$warning-color: #FFAF00;
 $danger-color: #FF1F1F;
-$secondary-color: #2741FF;
+$secondary-color: #003DB2;
 $info-color: #39C2FF;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
 $theme-colors: (
-  "primary": #C2FF1A,
+  "primary": #0057FF,
   "danger": #FF1F1F,
-  "warning": #FF8E1D,
-  "secondary": #2741FF,
+  "warning": #FFAF00,
+  "secondary": #003DB2,
   "info": #39C2FF,
 );

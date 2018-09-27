@@ -2,44 +2,54 @@
   <div class="my-4">
     <div class="container contact-container">
       <div class="row">
-        <div class="col-lg-7 col-md-6">
-          <h2 class="text-light">Contact Us</h2>
-          <form action="https://formspree.io/contact@berbli.com"
-                method="POST">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control bg-dark input-lg" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <input type="email" name="_replyto" class="form-control bg-dark input-lg" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <input type="text" name="phone" class="form-control bg-dark input-lg" placeholder="Phone">
-              </div>
-              <div class="form-group">
-                <textarea name="mensaje" rows="5" class="form-control bg-dark" placeholder="Message"></textarea>
-              </div>
-              <input type="submit" value="ENVIAR" class="btn btn-primary btn-lg">
-          </form>
-        </div>
-        <div class="col-lg-5 col-md-6 contact-info">
+        <div class="col-md-6 contact-info">
           <div class="px-lg-5">
-            <img src="assets/images/logo.svg">
-            <ul class="fa-ul pt-3">
+            <img src="assets/images/logo.svg" class="mb-5">
+            <h1 class="text-white">¡Platiquemos!</h1>
+            <p class="text-white">Si quieres conocer mas de mi trabajo o tienes un proyecto que necesite de buen diseño, escribeme o ponte en contacto conmigo!.</p>
+            <ul class="fa-ul pt-3 mt-3">
               <li class="pb-2">
-                <a class="text-light" href="callto:526563590406">
-                  <span class="fa-li text-primary"><i class="fal fa-phone"></i></span>
-                  +52 (656) 359 0406
+                <a class="text-light" href="#">
+                  <span class="fa-li text-primary"><i class="fal fa-map-marker"></i></span>Prolongación Uxmal 1009Bis, Santa Cruz Atoyac, CDMX.
                 </a>
               </li>
               <li class="pb-2">
-                <a class="text-light" href="mailto:contact@berbli.com">
-                  <span class="fa-li text-primary"><i class="fal fa-envelope-open"></i></span>
-                  contact@berbli.com
+                <a class="text-light" href="callto:526563590406">
+                  <span class="fa-li text-primary"><i class="fal fa-phone"></i></span>
+                  (55) 8233 2196
                 </a>
+              </li>
+              <li class="pb-2">
+                <p>
+                  <a class="text-light" href="mailto:contact@berbli.com">
+                    <span class="fa-li text-primary"><i class="fal fa-envelope-open"></i></span>
+                    saidgdiaz@gmail.com
+                  </a>
+                </p>
               </li>
             </ul>
           </div>
         </div>
+
+        <div class="col-md-6 card p-5">
+          <form action="https://formspree.io/saidgdiaz@gmail.com"
+                method="POST">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Nombre:">
+              </div>
+              <div class="form-group">
+                <input type="email" name="_replyto" class="form-control" placeholder="Correo electrónico ">
+              </div>
+              <div class="form-group">
+                <input type="text" name="phone" class="form-control" placeholder="Teléfono">
+              </div>
+              <div class="form-group">
+                <textarea name="mensaje" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+              </div>
+              <input type="submit" value="ENVIAR" class="btn btn-outline-primary btn-sm">
+          </form>
+        </div>
+
       </div>
     </div>
   </div>
